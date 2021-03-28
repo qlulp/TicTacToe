@@ -14,6 +14,10 @@ namespace TicTacToe.Controls
     {
         private readonly Color ActiveColor = Color.Yellow;
         private readonly Color BaseColor = Color.FromArgb(98, 60, 186);
+
+        /// <summary>
+        /// Роль - крестик или нолик
+        /// </summary>
         public CellState State { get; set; }
         /// <summary>
         /// Аватар игрока

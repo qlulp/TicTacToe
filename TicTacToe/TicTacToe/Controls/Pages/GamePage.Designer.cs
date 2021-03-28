@@ -79,7 +79,7 @@ namespace TicTacToe.Controls.Pages
             this.ExitButton.AnimationHoverSpeed = 0.07F;
             this.ExitButton.AnimationSpeed = 0.03F;
             this.ExitButton.BackColor = System.Drawing.Color.Transparent;
-            this.ExitButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.ExitButton.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(60)))), ((int)(((byte)(186)))));
             this.ExitButton.BorderColor = System.Drawing.Color.Black;
             this.ExitButton.CheckedBaseColor = System.Drawing.Color.Gray;
             this.ExitButton.CheckedBorderColor = System.Drawing.Color.Black;
@@ -134,8 +134,8 @@ namespace TicTacToe.Controls.Pages
             // RobotPlayerCard
             // 
             this.RobotPlayerCard.Avatar = ((System.Drawing.Image)(resources.GetObject("RobotPlayerCard.Avatar")));
-            this.RobotPlayerCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(60)))), ((int)(((byte)(186)))));
-            this.RobotPlayerCard.IsActive = false;
+            this.RobotPlayerCard.BackColor = System.Drawing.Color.Yellow;
+            this.RobotPlayerCard.IsActive = true;
             this.RobotPlayerCard.Location = new System.Drawing.Point(157, 64);
             this.RobotPlayerCard.Mark = global::TicTacToe.Properties.Resources.Cross;
             this.RobotPlayerCard.Name = "RobotPlayerCard";

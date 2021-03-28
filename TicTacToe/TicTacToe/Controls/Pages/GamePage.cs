@@ -25,9 +25,9 @@ namespace TicTacToe.Controls.Pages
                 }
                 _ActivePlayer = value;
                 _ActivePlayer.IsActive = true;
-                Board.SetGamePageControl(this);
             }
         }
+
         public void SwitchActivePlayer()
         {
             if (ActivePlayer.Equals(UserPlayerCard))
@@ -43,6 +43,7 @@ namespace TicTacToe.Controls.Pages
             InitializeComponent();
 
             ActivePlayer = UserPlayerCard;
+            Board.SetGamePageControl(this);
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
