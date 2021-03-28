@@ -38,15 +38,15 @@ namespace TicTacToe.Controls.Pages
             this.Board = new TicTacToe.Controls.GameBoard();
             this.RobotPlayerCard = new TicTacToe.Controls.PlayerCard();
             this.UserPlayerCard = new TicTacToe.Controls.PlayerCard();
-            this.Cell7 = new TicTacToe.Controls.CellControl();
-            this.Cell8 = new TicTacToe.Controls.CellControl();
-            this.Cell9 = new TicTacToe.Controls.CellControl();
-            this.Cell4 = new TicTacToe.Controls.CellControl();
-            this.Cell3 = new TicTacToe.Controls.CellControl();
-            this.Cell2 = new TicTacToe.Controls.CellControl();
-            this.Cell6 = new TicTacToe.Controls.CellControl();
-            this.Cell5 = new TicTacToe.Controls.CellControl();
-            this.Cell1 = new TicTacToe.Controls.CellControl();
+            this.Cell7 = new TicTacToe.Controls.Cell();
+            this.Cell8 = new TicTacToe.Controls.Cell();
+            this.Cell9 = new TicTacToe.Controls.Cell();
+            this.Cell4 = new TicTacToe.Controls.Cell();
+            this.Cell3 = new TicTacToe.Controls.Cell();
+            this.Cell2 = new TicTacToe.Controls.Cell();
+            this.Cell6 = new TicTacToe.Controls.Cell();
+            this.Cell5 = new TicTacToe.Controls.Cell();
+            this.Cell1 = new TicTacToe.Controls.Cell();
             this.BackgroundPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,8 +134,8 @@ namespace TicTacToe.Controls.Pages
             // RobotPlayerCard
             // 
             this.RobotPlayerCard.Avatar = ((System.Drawing.Image)(resources.GetObject("RobotPlayerCard.Avatar")));
-            this.RobotPlayerCard.BackColor = System.Drawing.Color.Yellow;
-            this.RobotPlayerCard.IsActive = true;
+            this.RobotPlayerCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(60)))), ((int)(((byte)(186)))));
+            this.RobotPlayerCard.IsActive = false;
             this.RobotPlayerCard.Location = new System.Drawing.Point(157, 64);
             this.RobotPlayerCard.Mark = global::TicTacToe.Properties.Resources.Cross;
             this.RobotPlayerCard.Name = "RobotPlayerCard";
@@ -276,15 +276,15 @@ namespace TicTacToe.Controls.Pages
         private Guna.UI.WinForms.GunaGradientPanel BackgroundPanel;
         private Guna.UI.WinForms.GunaAdvenceButton ExitButton;
         private Guna.UI.WinForms.GunaLabel ScoreLabel;
-        private CellControl Cell7;
-        private CellControl Cell8;
-        private CellControl Cell9;
-        private CellControl Cell4;
-        private CellControl Cell3;
-        private CellControl Cell2;
-        private CellControl Cell6;
-        private CellControl Cell5;
-        private CellControl Cell1;
+        private Cell Cell7;
+        private Cell Cell8;
+        private Cell Cell9;
+        private Cell Cell4;
+        private Cell Cell3;
+        private Cell Cell2;
+        private Cell Cell6;
+        private Cell Cell5;
+        private Cell Cell1;
         private PlayerCard RobotPlayerCard;
         private PlayerCard UserPlayerCard;
         private GameBoard Board;

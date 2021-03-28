@@ -31,15 +31,15 @@ namespace TicTacToe.Controls
         {
             this.components = new System.ComponentModel.Container();
             this.ElipseControl = new Guna.UI.WinForms.GunaElipse(this.components);
-            this.cellControl1 = new TicTacToe.Controls.CellControl();
-            this.cellControl2 = new TicTacToe.Controls.CellControl();
-            this.cellControl3 = new TicTacToe.Controls.CellControl();
-            this.cellControl4 = new TicTacToe.Controls.CellControl();
-            this.cellControl5 = new TicTacToe.Controls.CellControl();
-            this.cellControl6 = new TicTacToe.Controls.CellControl();
-            this.cellControl7 = new TicTacToe.Controls.CellControl();
-            this.cellControl8 = new TicTacToe.Controls.CellControl();
-            this.cellControl9 = new TicTacToe.Controls.CellControl();
+            this.cellControl1 = new TicTacToe.Controls.Cell();
+            this.cellControl2 = new TicTacToe.Controls.Cell();
+            this.cellControl3 = new TicTacToe.Controls.Cell();
+            this.cellControl4 = new TicTacToe.Controls.Cell();
+            this.cellControl5 = new TicTacToe.Controls.Cell();
+            this.cellControl6 = new TicTacToe.Controls.Cell();
+            this.cellControl7 = new TicTacToe.Controls.Cell();
+            this.cellControl8 = new TicTacToe.Controls.Cell();
+            this.cellControl9 = new TicTacToe.Controls.Cell();
             this.SuspendLayout();
             // 
             // ElipseControl
@@ -170,14 +170,14 @@ namespace TicTacToe.Controls
         #endregion
 
         private Guna.UI.WinForms.GunaElipse ElipseControl;
-        private CellControl cellControl9;
-        private CellControl cellControl8;
-        private CellControl cellControl7;
-        private CellControl cellControl6;
-        private CellControl cellControl5;
-        private CellControl cellControl4;
-        private CellControl cellControl3;
-        private CellControl cellControl2;
-        private CellControl cellControl1;
+        private Cell cellControl9;
+        private Cell cellControl8;
+        private Cell cellControl7;
+        private Cell cellControl6;
+        private Cell cellControl5;
+        private Cell cellControl4;
+        private Cell cellControl3;
+        private Cell cellControl2;
+        private Cell cellControl1;
     }
 }

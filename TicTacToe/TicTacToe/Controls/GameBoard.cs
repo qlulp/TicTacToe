@@ -32,7 +32,7 @@ namespace TicTacToe.Controls
 
         public void SetGamePageControl(in GamePage page)
         {
-            foreach (CellControl cell in Controls.OfType<CellControl>())
+            foreach (Cell cell in Controls.OfType<Cell>())
             {
                 cell.SetGamePageControl(page);
             }

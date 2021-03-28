@@ -13,6 +13,7 @@ namespace TicTacToe.Controls.Pages
 {
     public partial class GamePage : UserControl
     {
+        GameManager Manager;
         private PlayerCard _ActivePlayer;
         public PlayerCard ActivePlayer
         {
@@ -35,13 +36,14 @@ namespace TicTacToe.Controls.Pages
             else
                 ActivePlayer = UserPlayerCard;
 
-            GameManager.CheckBoard(Board.GetArray());
+            Manager.DetermineWinnder(Board.GetArray());
         }
 
         public GamePage()
         {
             InitializeComponent();
 
+            Manager = new GameManager();
             ActivePlayer = UserPlayerCard;
             Board.SetGamePageControl(this);
         }
